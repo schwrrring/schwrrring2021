@@ -1,1 +1,6 @@
 cmake-build-debug
+/CMakeFiles/
+/tests/cmake_install.cmake
+/tests/CMakeFiles/
+/tests/test.cbp
+/tests/test
