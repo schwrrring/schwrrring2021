@@ -13,6 +13,11 @@
 //==============================================================================
 class ChordSheetComponent : public juce::Component, private juce::ValueTree::Listener {
 public:
+
+    ChordSheetComponent() {
+        setSize(400, 400);
+        paintChordComponents(state);
+    }
     ChordSheetComponent(juce::ValueTree v) {
         state = v;
         state.addListener(this);

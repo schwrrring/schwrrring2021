@@ -40,7 +40,11 @@ public:
             addAndMakeVisible(*chordSheet);
             Helpers::colourClipsWithPracticeTimesInTheFutureYellow(*edit);
             copyOfClipSequence.copyFrom(currentExcercise->getSequence(), nullptr);
+        } else {
+            chordSheet = std::__1::make_unique<ChordSheetComponent>();
+            addAndMakeVisible(*chordSheet);
         }
+
     }
 
     File loadProjectFromFile() {
@@ -132,7 +136,6 @@ public:
     void resized() override {
         auto r = getLocalBounds();
         auto topR = r.removeFromTop(30).reduced(2);
-//        midiInputList->setBounds(r.removeFromTop(30).reduced(2));
         headerComponent->setBounds(topR);
         midiInputList.setBounds(r.removeFromTop(30).reduced(2));
         chordSheet->setBounds(r.removeFromTop(400).reduced(2));
