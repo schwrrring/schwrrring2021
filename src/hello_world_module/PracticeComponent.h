@@ -170,7 +170,6 @@ private:
 
 
 
-
     //==============================================================================
     // These methods handle callbacks from the midi device + on-screen keyboard..
     void handleIncomingMidiMessage(juce::MidiInput *source, const juce::MidiMessage &message) override {
