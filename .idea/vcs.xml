@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/mx" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/libs/tracktion_engine" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/libs/tracktion_engine/modules/juce" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tests/libs/Catch2" vcs="Git" />

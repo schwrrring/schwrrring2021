@@ -4,3 +4,6 @@
 [submodule "tests/libs/Catch2"]
 	path = tests/libs/Catch2
 	url = https://github.com/catchorg/Catch2.git
+[submodule "libs/mx"]
+	path = libs/mx
+	url = https://github.com/webern/mx.git

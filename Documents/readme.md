@@ -1,3 +1,10 @@
+###install
+#### install git submodules:
+1. git submodule init
+2. git submodule 
+
+reload CMakeList.txt
+
 ###CmakeList.txt
 
 Target properties are defined in one of two scopes: INTERFACE and PRIVATE. 

@@ -22,4 +22,8 @@ https://leimao.github.io/blog/CMake-Public-Private-Interface/
   * use Interface and Public only for the include Folder of a library
   * use Private von src folder
 
+## Juce-Cmake
+https://forum.juce.com/t/native-built-in-cmake-support-in-juce/38700
+=> hier gibt es eine erwähnung von examples im repository von juce und vom readme
+
 
