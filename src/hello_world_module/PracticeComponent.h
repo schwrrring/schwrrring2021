@@ -211,6 +211,7 @@ private:
         juce::MidiKeyboardState &keyboardState;
     };
 
+
 // todo: this zurückgeben um die checker zu chainen
     void handleChord(juce::MidiKeyboardState &keyboardState, tracktion_engine::MidiClip *clip,
                      const juce::MidiMessage &message) {
