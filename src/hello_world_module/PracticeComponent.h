@@ -169,6 +169,8 @@ private:
     tracktion_engine::MidiList copyOfClipSequence{};
 
 
+
+
     //==============================================================================
     // These methods handle callbacks from the midi device + on-screen keyboard..
     void handleIncomingMidiMessage(juce::MidiInput *source, const juce::MidiMessage &message) override {
